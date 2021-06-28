@@ -86,3 +86,52 @@ p {
   display: inline-block;
   text-align: center;
 }
+
+
+#container  {
+    /* border: solid rgb(57, 11, 95); */
+    padding: 3rem;
+    text-align: center;
+    width: 100%;
+    margin: 3rem auto;
+    text-align: left;
+  
+    
+}
+
+table {
+    /* border: solid tomato; */
+   margin: 0 auto;
+   
+  
+}
+
+
+tr:first-child {
+    display: inline;
+    padding-left: 5.5rem; 
+    font-weight: bolder;
+    color: tomato;
+}
+
+th:first-child {
+    font-weight: bolder;
+    color: tomato;
+    width: 7rem;
+    
+}
+
+tr {
+    padding-left: 6rem;
+    /* border: solid rgb(15, 165, 40); */
+    width: 10rem;
+}
+
+th {
+  
+    /* border: solid rgb(152, 212, 40); */
+    padding: 2.5rem;
+    display: inline-block;
+    width: 2rem;
+    /* padding-left: 1rem; */
+}
