@@ -16,6 +16,8 @@ How long did it take you to complete this assignment? And, before you started, h
 
 3. nearly 6 hours.
 
-## Day 2
+# Day 2
 
-1. easier than yesterday, 
+1. easier than yesterday, did not take a lot of time. 
+2. The  contractor function is way much easier that the objects literal. 
+3. 3 hours maybe
