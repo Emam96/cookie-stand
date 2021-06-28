@@ -19,5 +19,5 @@ I converted the app to be an object oriented by creating a contractor function a
 # Day 2
 
 1. easier than yesterday, did not take a lot of time. 
-2. The  contractor function is way much easier that the objects literal. 
-3. 3 hours maybe
+2. The  contractor function is way much easier than the objects literal. 
+3. 3 hours maybe.
