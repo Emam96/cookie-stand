@@ -73,8 +73,8 @@ header button {
   font-family: sans-serif;
   font-weight: bolder;
   font-size: 4pc;
-  color: white;
-  background-color: transparent;
+  color: hsla(17, 77%, 55%, 0.98);
+  background-color: white;
   border-color: #f9f9f9;
   border-style: solid;
   border-width: 1px;
@@ -90,14 +90,71 @@ header button {
 }
 
 header button:hover {
-  background-color: white;
-  color: hsla(17, 77%, 55%, 0.98);
+  background-color: #c40e0e;
+  color: white;
+  border-color: #c40e0e;
 }
+
+
+#brie {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 3pc;
+  width: 70rem;
+  text-align: center;
+  margin: 10rem auto;
+  /* text-shadow: 0px 5px 10px hsla(0, 0%, 0%, 0.24); */
+}
+
+
+.quality {
+  /* border: solid tomato; */
+  position: relative;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 2.5pc;
+  width: 98%;
+  margin: 10rem auto;
+  height: 500px;
+  text-align: left;
+  transition: 1s;
+  opacity: 0;
+ 
+  padding: 0.5rem;
+
+}
+
+.quality:hover {
+  opacity: 1;
+  padding: 0rem;
+}
+
+
+.quality img { 
+  position: absolute;
+  left: 5rem;
+  top: 2rem;
+ 
+ 
+}
+
+
+
+
+
+.quality h4 {
+  position: absolute;
+  width: 30rem;
+  right: 10rem;
+  top: 3rem;
+}
+
+
 
 .items {
   width: 90%;
   overflow: hidden;
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 4rem;
   display: flex;
   flex-direction: row;
@@ -214,7 +271,7 @@ footer {
   font-family: sans-serif;
   font-size: 1.5pc;
   color: white;
-  margin-top: 15rem;
+  margin-top: 10rem;
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
