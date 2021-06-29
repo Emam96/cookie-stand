@@ -341,14 +341,18 @@ footer a {
   text-decoration: none;
   padding: 1.5rem;
   transition: 0.3s;
+  color: #c40e0e;
   
 }
 
 footer p {
+  font-size: 1.1pc;
   padding: 1.5rem;
+  color: #c40e0e;
+  word-spacing: 0.1rem;
   
 }
 
 footer a:hover {
-  color: #c40e0e;
+  color: hsl(0, 90%, 59%);
 }
