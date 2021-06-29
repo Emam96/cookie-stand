@@ -63,6 +63,7 @@ header {
   background-image: url(https://archello.s3.eu-central-1.amazonaws.com/images/2020/12/04/estudio-ch--varro-mustapan-coffee-shop-shops-archello.1607075335.1427.jpg);
   background-size: cover;
   overflow: hidden;
+  text-align: center;
 }
 
 header h1 {
@@ -72,11 +73,12 @@ header h1 {
   color: white;
   position: relative;
   top: 5rem;
-  left: 10rem;
+  left: 0rem;
   bottom: 0rem;
   right: 0rem;
   /* text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.616); */
   user-select: none;
+ 
 }
 
 header button {
@@ -92,11 +94,16 @@ header button {
   transition: 0.3s;
   text-decoration: none;
   cursor: pointer;
-  position: relative;
-  top: 2rem;
-  left: 12rem;
-  bottom: 0rem;
-  right: 0rem;
+  
+  /* top: 2rem;
+  left: 47rem;
+  right: 47rem;
+  bottom: 0rem; */
+  /* margin-top: 2rem;
+  margin-left: 47rem;
+  margin-right: 0rem; */
+  
+  
 }
 
 header button:hover {
