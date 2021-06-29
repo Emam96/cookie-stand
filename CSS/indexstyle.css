@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
+html { 
+  scroll-behavior: smooth;
+}
+
+
+
 body {
   margin: 0%;
 }
@@ -6,8 +13,10 @@ body {
 nav {
   background-color: hsla(17, 77%, 55%, 0.98);
   height: 7rem;
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  top: 0rem;
+  /* position: fixed;
+  width: 100%; */
   z-index: 1;
 }
 
@@ -62,7 +71,7 @@ header h1 {
   font-size: 9pc;
   color: white;
   position: relative;
-  top: 9rem;
+  top: 5rem;
   left: 10rem;
   bottom: 0rem;
   right: 0rem;
@@ -84,7 +93,7 @@ header button {
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  top: 4rem;
+  top: 2rem;
   left: 12rem;
   bottom: 0rem;
   right: 0rem;
@@ -105,6 +114,26 @@ header button:hover {
   text-align: center;
   margin: 10rem auto;
   /* text-shadow: 0px 5px 10px hsla(0, 0%, 0%, 0.24); */
+}
+
+
+#bSelling {
+
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 3pc;
+  margin-left: 5rem;
+}
+
+
+#menu {
+  border: solid #0000005b;
+  border-radius: 5px;
+ margin: 0 auto;
+ width: 97%;
+ border-width: 1px;
+ 
+
 }
 
 
@@ -149,6 +178,9 @@ header button:hover {
   right: 10rem;
   top: 3rem;
 }
+
+
+
 
 
 
@@ -272,6 +304,7 @@ header button:hover {
 }
 
 footer {
+ 
   font-family: sans-serif;
   font-size: 1.5pc;
   color: white;
@@ -281,8 +314,12 @@ footer {
   padding-bottom: 1rem;
   background-color: hsla(24, 100%, 50%, 0.657);
   text-align: center;
-  user-select: none;
+  
 }
+
+
+
+
 
 footer img {
   height: 80px;
@@ -297,12 +334,12 @@ footer a {
   text-decoration: none;
   padding: 1.5rem;
   transition: 0.3s;
-  user-select: none;
+  
 }
 
 footer p {
   padding: 1.5rem;
-  user-select: none;
+  
 }
 
 footer a:hover {

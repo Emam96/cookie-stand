@@ -135,3 +135,15 @@ th {
     width: 2rem;
     /* padding-left: 1rem; */
 }
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  font-size: 2pc;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
