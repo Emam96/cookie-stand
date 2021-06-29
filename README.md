@@ -3,7 +3,7 @@
 I made an app that produce random sales data to support the supply chain for a coffee shop business using JavaScript.
 I made a page "index" that will be the user interface for the business using HTML and CSS.
 I converted the app to be an object oriented by creating a contractor function and recreating the objects using it
-For the styling, you can scroll at the main page to see the menu and the contact info beside the working hours and then you can click on "locations" to go sales dashboard.
+For the styling, you can scroll at the main page to see the menu and the contact info beside the working hours and then you can click on "sales dashboard" to go sales dashboard.
 
 * How did this go, overall?
 * What observations or questions do you have about what you’ve learned so far?
