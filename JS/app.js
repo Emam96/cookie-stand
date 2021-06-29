@@ -27,7 +27,15 @@ let workHours = [
 // };
 
 
+// let sumFun = function (array) {
 
+//   let sum = 0;
+  
+//   for (let i = 0; i < array.length; i++) {
+//       sum += array[i];
+//   }
+//   }
+  
 
 const reducer = (accumulator, curr) => accumulator + curr;
 
@@ -50,6 +58,7 @@ let tabel1 = function () {
 tabel1();
 
 
+let dashboardArray = [];
 
 let locations = [];
 
@@ -100,6 +109,36 @@ Location.prototype.render = function () {
 
 };
 
+
+
+
+let footer = function () {
+  let trel4 = document.createElement('tr');
+    tableEl.appendChild(trel4);
+    let thel2 = document.createElement('th');
+    thel2.textContent = 'Gross sales';
+    trel4.appendChild(thel2);
+  for (let roundone = 0; roundone < workHours.length; roundone++) {                       // this round is to create the cells needed to fill the totals 
+    let dash = document.createElement("th");
+    trel4.appendChild(dash);
+    let dashboard = 0;
+    
+    for (let roundtwo = 0; roundtwo < locations.length; roundtwo++) {                     // this round adds up the first cell in the row from each location
+      dashboard = dashboard + locations[roundtwo].hourlySaleTwo[roundone];
+      dash.textContent = `Total ${dashboard}`;
+    }
+    dashboardArray.push(dashboard);
+   
+  }
+
+  console.log(dashboardArray.reduce(reducer));
+
+
+let thel3 = document.createElement('th');
+trel4.appendChild(thel3);
+thel3.textContent = `Total ${dashboardArray.reduce(reducer)}`;
+  };
+
 let Tokyo = new Location('Tokyo shop', 6.3, 23, 65, []);
 let Seattle = new Location('Seattle shop', 1.2, 3, 24, []);
 let Dubai = new Location('Dubai shop', 3.7, 11, 38, []);
@@ -123,20 +162,8 @@ Tokyo.render();
 Dubai.render();
 Paris.render();
 Lima.render();
+footer();
 
 
 
-let trel4 = document.createElement('tr');
-  tableEl.appendChild(trel4);
-  let thel2 = document.createElement('th');
-  thel2.textContent = 'Gross sales';
-  trel4.appendChild(thel2);
-for (let roundone = 0; roundone < workHours.length; roundone++) {                       // this round is to create the cells needed to fill the totals 
-  let dash = document.createElement("th");
-  trel4.appendChild(dash);
-  let dashboard = 0;
-  for (let roundtwo = 0; roundtwo < locations.length; roundtwo++) {                     // this round adds up the first cell in the row from each location
-    dashboard = dashboard + locations[roundtwo].hourlySaleTwo[roundone];
-    dash.textContent = `Total ${dashboard}`;
-  }
-}
+
